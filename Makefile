@@ -1,6 +1,6 @@
 .PHONY: build, clean
 
-build: linux_amd64 linux_arm64 mac_arm64 linux_amd64_lite linux_arm64_lite mac_arm64_lite
+build-all: linux_amd64 linux_arm64 mac_arm64 linux_amd64_lite linux_arm64_lite mac_arm64_lite
 		@echo "All builds completed."
 
 linux_amd64:
